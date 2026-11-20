@@ -1,0 +1,81 @@
+result of optimization:
+minimized value: 2.5000000000000004
+solution value for gaps (rounded down): 2.4999999999999996
+gaps: 
+[0.99999999999999989, 1.0000000000000002]
+[0.99999999999999989, 1.0000000000000002]
+[0.99999999999999989, 1.0000000000000002]
+worst Upperbound: 1.0000000000000002
+numerical lower bound (rounded down): 2.4999999999999987
+value of x:
+x0: 1
+x1: 0.5
+x2: 1
+Solution Bicliques:
+biclique number 0:{
+Condensed Formula : (N: a, #1) (N: d, #1) (N: b, #1) (N: c, #1) 
+Top Nodes: (N: 0, #1, K: 1)(N: 1, #1, K: 1)
+Bot Nodes: (N: 0, #1, K: 1)(N: 1, #1, K: 1)
+}
+biclique number 1:{
+Condensed Formula : (N: d, #2) 
+Top Nodes: (N: 0, #2, K: 1)
+Bot Nodes: (N: 1, #1, K: 1)
+}
+biclique number 2:{
+Condensed Formula : (N: a, #1) (N: b, #1) 
+Top Nodes: (N: 0, #1, K: 1)(N: 1, #1, K: 1)
+Bot Nodes: (N: 0, #1, K: 1)
+}
+biclique number 3:{
+Condensed Formula : (N: a, #1) (N: d, #1) 
+Top Nodes: (N: 0, #1, K: 1)
+Bot Nodes: (N: 0, #1, K: 1)(N: 1, #1, K: 1)
+}
+MBasis: 4
+1 0 1 1 
+1 0 1 0 
+1 0 0 0 
+1 2 0 1 
+Dominograph: Domino Graph: {
+power: 1
+numEdgeOrbits: 4
+FoundBicliques: 
+{
+Condensed Formula : (N: a, #1) (N: d, #1) (N: b, #1) (N: c, #1) 
+Top Nodes: (N: 0, #1, K: 1)(N: 1, #1, K: 1)
+Bot Nodes: (N: 0, #1, K: 1)(N: 1, #1, K: 1)
+}
+{
+Condensed Formula : (N: a, #1) (N: b, #1) 
+Top Nodes: (N: 0, #1, K: 1)(N: 1, #1, K: 1)
+Bot Nodes: (N: 0, #1, K: 1)
+}
+{
+Condensed Formula : (N: d, #2) 
+Top Nodes: (N: 0, #2, K: 1)
+Bot Nodes: (N: 1, #1, K: 1)
+}
+{
+Condensed Formula : (N: a, #1) (N: d, #1) 
+Top Nodes: (N: 0, #1, K: 1)
+Bot Nodes: (N: 0, #1, K: 1)(N: 1, #1, K: 1)
+}
+1 0 1 1 
+1 0 1 0 
+1 0 0 0 
+1 2 0 1 
+}
+determinante von M: -2
+Solution values: 
+x_0 = 1 / 1
+x_1 = 1 / 2
+x_2 = 1 / 1
+x_3 = 0 / 1
+Dual solution:
+y_0 = 1 / 2
+y_1 = 1 / 2
+y_2 = -1 / 2
+y_3 = 1 / 2
+Restricted Master Problem Dual lower bound = 5 / 2
+Dual lower bound verified

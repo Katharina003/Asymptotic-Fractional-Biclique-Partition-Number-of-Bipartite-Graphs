@@ -1,0 +1,287 @@
+result of optimization:
+minimized value: 6.0000000000000009
+solution value for gaps (rounded down): 5.9999999999999991
+gaps: 
+[0.99999999999999989, 1.0000000000000002]
+[0.99999999999999989, 1.0000000000000002]
+[0.99999999999999989, 1.0000000000000002]
+[0.99999999999999989, 1.0000000000000002]
+[-0, -0]
+[-0, -0]
+[0.99999999999999989, 1.0000000000000002]
+[-0, -0]
+[-0, -0]
+worst Upperbound: 1.0000000000000002
+numerical lower bound (rounded down): 5.9999999999999973
+value of x:
+x0: 0.5
+x1: 1.25
+x7: 0.25
+x8: 1.5
+x9: 0.5
+x17: 0.5
+x26: 1
+x27: 0.25
+x31: 0.25
+Solution Bicliques:
+biclique number 0:{
+Condensed Formula : (N: aa, #1) (N: ad, #2) (N: bb, #1) (N: ac, #2) (N: dd, #1) (N: cd, #2) (N: ab, #2) (N: bd, #2) (N: bc, #2) (N: cc, #1) 
+Top Nodes: (N: 00, #1, K: 2)(N: 01, #1, K: 2)(N: 10, #1, K: 2)(N: 11, #1, K: 2)
+Bot Nodes: (N: 00, #1, K: 2)(N: 01, #1, K: 2)(N: 10, #1, K: 2)(N: 11, #1, K: 2)
+}
+biclique number 1:{
+Condensed Formula : (N: ad, #2) (N: dd, #2) (N: bd, #2) (N: cd, #2) 
+Top Nodes: (N: 00, #2, K: 2)(N: 01, #2, K: 2)
+Bot Nodes: (N: 10, #1, K: 2)(N: 11, #1, K: 2)
+}
+biclique number 7:{
+Condensed Formula : (N: ad, #2) (N: bd, #2) 
+Top Nodes: (N: 00, #2, K: 2)(N: 01, #2, K: 2)
+Bot Nodes: (N: 10, #1, K: 2)
+}
+biclique number 8:{
+Condensed Formula : (N: aa, #1) (N: ab, #2) (N: bb, #1) 
+Top Nodes: (N: 00, #1, K: 2)(N: 01, #1, K: 2)(N: 10, #1, K: 2)(N: 11, #1, K: 2)
+Bot Nodes: (N: 00, #1, K: 2)
+}
+biclique number 9:{
+Condensed Formula : (N: aa, #1) (N: ad, #1) (N: bb, #1) (N: dd, #1) (N: bc, #1) (N: cd, #1) (N: ab, #1) (N: bd, #1) (N: cc, #1) 
+Top Nodes: (N: 00, #1, K: 2)(N: 10, #1, K: 2)(N: 11, #1, K: 2)
+Bot Nodes: (N: 00, #1, K: 2)(N: 01, #1, K: 2)(N: 11, #1, K: 2)
+}
+biclique number 17:{
+Condensed Formula : (N: aa, #1) (N: ad, #2) (N: ab, #2) (N: ac, #2) (N: bd, #2) 
+Top Nodes: (N: 00, #1, K: 2)(N: 01, #1, K: 2)(N: 10, #1, K: 2)
+Bot Nodes: (N: 00, #1, K: 2)(N: 01, #1, K: 2)(N: 10, #1, K: 2)
+}
+biclique number 23:{
+Condensed Formula : (N: ab, #2) (N: bb, #2) 
+Top Nodes: (N: 01, #1, K: 2)(N: 11, #1, K: 2)
+Bot Nodes: (N: 00, #2, K: 2)
+}
+biclique number 26:{
+Condensed Formula : (N: aa, #1) (N: ad, #2) (N: ab, #2) (N: bc, #2) (N: ac, #2) (N: bb, #1) (N: bd, #2) 
+Top Nodes: (N: 00, #1, K: 2)(N: 01, #1, K: 2)(N: 10, #1, K: 2)(N: 11, #1, K: 2)
+Bot Nodes: (N: 00, #1, K: 2)(N: 01, #1, K: 2)(N: 10, #1, K: 2)
+}
+biclique number 27:{
+Condensed Formula : (N: ab, #2) (N: bc, #2) (N: bd, #2) (N: bb, #2) 
+Top Nodes: (N: 01, #1, K: 2)(N: 11, #1, K: 2)
+Bot Nodes: (N: 00, #2, K: 2)(N: 10, #2, K: 2)
+}
+biclique number 31:{
+Condensed Formula : (N: ad, #2) (N: dd, #2) 
+Top Nodes: (N: 00, #2, K: 2)
+Bot Nodes: (N: 10, #1, K: 2)(N: 11, #1, K: 2)
+}
+MBasis: 10
+1 0 0 1 1 1 0 1 0 0 
+2 0 0 2 1 2 2 2 2 0 
+2 0 0 0 0 2 0 2 0 0 
+2 2 2 0 1 2 0 2 0 2 
+1 0 0 1 1 0 2 1 2 0 
+2 0 0 0 1 0 0 2 2 0 
+2 2 2 0 1 2 0 2 2 0 
+1 0 0 0 1 0 0 0 0 0 
+2 2 0 0 1 0 0 0 0 0 
+1 2 0 0 1 0 0 0 0 2 
+Dominograph: Domino Graph: {
+power: 2
+numEdgeOrbits: 10
+FoundBicliques: 
+{
+Condensed Formula : (N: aa, #1) (N: ad, #2) (N: dd, #1) 
+Top Nodes: (N: 00, #1, K: 2)
+Bot Nodes: (N: 00, #1, K: 2)(N: 01, #1, K: 2)(N: 10, #1, K: 2)(N: 11, #1, K: 2)
+}
+{
+Condensed Formula : (N: aa, #1) (N: ab, #2) (N: bb, #1) 
+Top Nodes: (N: 00, #1, K: 2)(N: 01, #1, K: 2)(N: 10, #1, K: 2)(N: 11, #1, K: 2)
+Bot Nodes: (N: 00, #1, K: 2)
+}
+{
+Condensed Formula : (N: aa, #1) (N: ad, #1) (N: ab, #2) (N: bc, #1) (N: ac, #1) (N: bb, #1) (N: bd, #1) 
+Top Nodes: (N: 00, #1, K: 2)(N: 01, #1, K: 2)(N: 10, #1, K: 2)(N: 11, #1, K: 2)
+Bot Nodes: (N: 00, #1, K: 2)(N: 01, #1, K: 2)
+}
+{
+Condensed Formula : (N: aa, #1) (N: ad, #2) (N: bb, #1) (N: ac, #2) (N: dd, #1) (N: cd, #2) (N: ab, #2) (N: bd, #2) (N: bc, #2) (N: cc, #1) 
+Top Nodes: (N: 00, #1, K: 2)(N: 01, #1, K: 2)(N: 10, #1, K: 2)(N: 11, #1, K: 2)
+Bot Nodes: (N: 00, #1, K: 2)(N: 01, #1, K: 2)(N: 10, #1, K: 2)(N: 11, #1, K: 2)
+}
+{
+Condensed Formula : (N: dd, #4) 
+Top Nodes: (N: 00, #4, K: 2)
+Bot Nodes: (N: 11, #1, K: 2)
+}
+{
+Condensed Formula : (N: ad, #2) (N: dd, #2) (N: bd, #2) (N: cd, #2) 
+Top Nodes: (N: 00, #2, K: 2)(N: 01, #2, K: 2)
+Bot Nodes: (N: 10, #1, K: 2)(N: 11, #1, K: 2)
+}
+{
+Condensed Formula : (N: ad, #2) (N: dd, #2) (N: bd, #2) (N: cd, #2) 
+Top Nodes: (N: 00, #2, K: 2)(N: 10, #2, K: 2)
+Bot Nodes: (N: 01, #1, K: 2)(N: 11, #1, K: 2)
+}
+{
+Condensed Formula : (N: bd, #4) 
+Top Nodes: (N: 10, #2, K: 2)
+Bot Nodes: (N: 01, #2, K: 2)
+}
+{
+Condensed Formula : (N: ad, #2) (N: bd, #2) 
+Top Nodes: (N: 00, #2, K: 2)(N: 01, #2, K: 2)
+Bot Nodes: (N: 10, #1, K: 2)
+}
+{
+Condensed Formula : (N: ad, #2) (N: bd, #2) 
+Top Nodes: (N: 00, #2, K: 2)(N: 10, #2, K: 2)
+Bot Nodes: (N: 01, #1, K: 2)
+}
+{
+Condensed Formula : (N: aa, #1) (N: ad, #2) (N: ab, #2) (N: bc, #2) (N: ac, #2) (N: bb, #1) (N: bd, #2) 
+Top Nodes: (N: 00, #1, K: 2)(N: 01, #1, K: 2)(N: 10, #1, K: 2)(N: 11, #1, K: 2)
+Bot Nodes: (N: 00, #1, K: 2)(N: 01, #1, K: 2)(N: 10, #1, K: 2)
+}
+{
+Condensed Formula : (N: aa, #1) (N: ad, #1) (N: ab, #2) (N: bc, #1) (N: bd, #1) (N: ac, #1) (N: bb, #1) 
+Top Nodes: (N: 00, #1, K: 2)(N: 01, #1, K: 2)(N: 10, #1, K: 2)(N: 11, #1, K: 2)
+Bot Nodes: (N: 00, #1, K: 2)(N: 10, #1, K: 2)
+}
+{
+Condensed Formula : (N: aa, #1) (N: ad, #1) (N: bb, #1) (N: dd, #1) (N: bc, #1) (N: cd, #1) (N: ab, #1) (N: bd, #1) (N: cc, #1) 
+Top Nodes: (N: 00, #1, K: 2)(N: 10, #1, K: 2)(N: 11, #1, K: 2)
+Bot Nodes: (N: 00, #1, K: 2)(N: 01, #1, K: 2)(N: 11, #1, K: 2)
+}
+{
+Condensed Formula : (N: ad, #2) (N: dd, #2) (N: bd, #2) (N: cc, #1) (N: cd, #2) (N: bc, #1) 
+Top Nodes: (N: 00, #2, K: 2)(N: 10, #2, K: 2)(N: 11, #1, K: 2)
+Bot Nodes: (N: 01, #1, K: 2)(N: 11, #1, K: 2)
+}
+{
+Condensed Formula : (N: ad, #2) (N: dd, #2) (N: bd, #2) (N: cc, #1) (N: cd, #2) (N: bc, #1) 
+Top Nodes: (N: 00, #2, K: 2)(N: 01, #2, K: 2)(N: 11, #1, K: 2)
+Bot Nodes: (N: 10, #1, K: 2)(N: 11, #1, K: 2)
+}
+{
+Condensed Formula : (N: dd, #4) (N: cc, #1) 
+Top Nodes: (N: 00, #4, K: 2)(N: 11, #1, K: 2)
+Bot Nodes: (N: 11, #1, K: 2)
+}
+{
+Condensed Formula : (N: bd, #4) (N: bc, #2) 
+Top Nodes: (N: 01, #2, K: 2)(N: 11, #1, K: 2)
+Bot Nodes: (N: 10, #2, K: 2)
+}
+{
+Condensed Formula : (N: bd, #4) (N: cc, #1) (N: cd, #2) (N: bc, #2) 
+Top Nodes: (N: 01, #2, K: 2)(N: 11, #1, K: 2)
+Bot Nodes: (N: 10, #2, K: 2)(N: 11, #1, K: 2)
+}
+{
+Condensed Formula : (N: ad, #2) (N: dd, #2) 
+Top Nodes: (N: 00, #2, K: 2)
+Bot Nodes: (N: 10, #1, K: 2)(N: 11, #1, K: 2)
+}
+{
+Condensed Formula : (N: bd, #4) (N: cc, #1) (N: cd, #2) (N: bc, #2) 
+Top Nodes: (N: 10, #2, K: 2)(N: 11, #1, K: 2)
+Bot Nodes: (N: 01, #2, K: 2)(N: 11, #1, K: 2)
+}
+{
+Condensed Formula : (N: bd, #4) (N: bc, #2) 
+Top Nodes: (N: 10, #2, K: 2)(N: 11, #1, K: 2)
+Bot Nodes: (N: 01, #2, K: 2)
+}
+{
+Condensed Formula : (N: aa, #1) (N: ad, #2) (N: ab, #2) (N: ac, #2) (N: bd, #2) 
+Top Nodes: (N: 00, #1, K: 2)(N: 01, #1, K: 2)(N: 10, #1, K: 2)
+Bot Nodes: (N: 00, #1, K: 2)(N: 01, #1, K: 2)(N: 10, #1, K: 2)
+}
+{
+Condensed Formula : (N: ab, #2) (N: bd, #2) 
+Top Nodes: (N: 01, #1, K: 2)
+Bot Nodes: (N: 00, #2, K: 2)(N: 10, #2, K: 2)
+}
+{
+Condensed Formula : (N: bd, #4) 
+Top Nodes: (N: 01, #2, K: 2)
+Bot Nodes: (N: 10, #2, K: 2)
+}
+{
+Condensed Formula : (N: ab, #2) (N: bd, #2) 
+Top Nodes: (N: 10, #1, K: 2)
+Bot Nodes: (N: 00, #2, K: 2)(N: 01, #2, K: 2)
+}
+{
+Condensed Formula : (N: ab, #2) (N: bb, #1) 
+Top Nodes: (N: 01, #1, K: 2)(N: 10, #1, K: 2)(N: 11, #1, K: 2)
+Bot Nodes: (N: 00, #1, K: 2)
+}
+{
+Condensed Formula : (N: ab, #2) (N: bb, #2) 
+Top Nodes: (N: 01, #1, K: 2)(N: 11, #1, K: 2)
+Bot Nodes: (N: 00, #2, K: 2)
+}
+{
+Condensed Formula : (N: ab, #2) (N: bb, #2) 
+Top Nodes: (N: 10, #1, K: 2)(N: 11, #1, K: 2)
+Bot Nodes: (N: 00, #2, K: 2)
+}
+{
+Condensed Formula : (N: ab, #2) (N: bc, #2) (N: bd, #2) (N: bb, #2) 
+Top Nodes: (N: 01, #1, K: 2)(N: 11, #1, K: 2)
+Bot Nodes: (N: 00, #2, K: 2)(N: 10, #2, K: 2)
+}
+{
+Condensed Formula : (N: bb, #4) (N: cc, #1) 
+Top Nodes: (N: 11, #1, K: 2)
+Bot Nodes: (N: 00, #4, K: 2)(N: 11, #1, K: 2)
+}
+{
+Condensed Formula : (N: ab, #2) (N: bc, #2) (N: bd, #2) (N: bb, #2) 
+Top Nodes: (N: 10, #1, K: 2)(N: 11, #1, K: 2)
+Bot Nodes: (N: 00, #2, K: 2)(N: 01, #2, K: 2)
+}
+{
+Condensed Formula : (N: ad, #2) (N: dd, #2) 
+Top Nodes: (N: 00, #2, K: 2)
+Bot Nodes: (N: 01, #1, K: 2)(N: 11, #1, K: 2)
+}
+1 0 1 0 0 0 1 0 1 1 0 0 0 0 0 0 0 1 0 0 0 0 0 0 0 0 1 0 0 1 0 0 
+2 0 2 0 0 0 2 0 2 1 0 0 0 0 0 0 0 2 2 0 2 0 2 2 2 0 2 2 2 0 0 0 
+2 0 1 0 0 0 1 0 0 0 0 0 0 0 0 0 0 2 0 0 0 0 0 0 0 0 2 0 0 0 0 0 
+2 2 1 2 0 2 1 2 0 1 2 2 0 0 0 0 0 2 0 0 0 0 0 0 0 0 2 0 0 2 2 2 
+1 0 1 0 0 0 1 0 1 1 0 0 0 0 0 0 0 0 0 0 0 0 1 2 2 4 1 2 2 0 0 0 
+2 0 1 0 0 0 1 0 0 1 1 1 0 2 2 2 2 0 0 0 0 0 0 0 0 0 2 2 2 0 0 0 
+2 2 1 2 0 2 1 2 0 1 2 2 0 4 4 4 4 2 2 4 2 4 0 0 0 0 2 2 2 0 0 0 
+1 0 0 0 0 0 0 0 0 1 1 1 1 0 1 0 1 0 0 0 0 0 0 0 0 1 0 0 0 0 0 0 
+2 2 0 2 0 0 0 0 0 1 2 2 0 0 2 0 2 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+1 2 0 2 4 0 0 0 0 1 2 2 4 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 2 2 
+}
+determinante von M: 128
+Solution values: 
+x_0 = 1 / 2
+x_1 = 5 / 4
+x_7 = 1 / 4
+x_8 = 3 / 2
+x_9 = 1 / 2
+x_17 = 1 / 2
+x_23 = 0 / 1
+x_26 = 1 / 1
+x_27 = 1 / 4
+x_31 = 1 / 4
+Dual solution:
+y_0 = 0 / 2
+y_1 = 1 / 2
+y_2 = -1 / 2
+y_3 = 1 / 2
+y_4 = 0 / 2
+y_5 = 0 / 2
+y_6 = 0 / 2
+y_7 = 0 / 2
+y_8 = 0 / 2
+y_9 = 0 / 2
+Restricted Master Problem Dual lower bound = 6 / 1
+Dual lower bound verified

@@ -1,0 +1,7 @@
+.\resultK1.txt: VERIFIED; exact primal objective = 5/2 (approximately 2.500000)
+.\resultK2.txt: VERIFIED; exact primal objective = 6 (approximately 6.000000)
+.\resultK3.txt: VERIFIED; exact primal objective = 2059/149 (approximately 13.818792)
+.\resultK4.txt: VERIFIED; exact primal objective = 62671/1956 (approximately 32.040389)
+.\resultK5.txt: VERIFIED; exact primal objective = 6142179470264484847/81676504073707584 (approximately 75.201302)
+.\resultK6.txt: VERIFIED; exact primal objective = 180288797110099284689729495928007/1032941138606309757287724652580 (approximately 174.539275)
+.\resultK7.txt: VERIFIED; exact primal objective = 303972086640206608156302845626756791422430473690161646930392453461204632928515838577914734564863/745295144061520219702458570728058215679669727609711380549591729795066838174506981040820609533 (approximately 407.854645)
